@@ -4,11 +4,10 @@ import moment from "moment";
 import Marquee from "react-fast-marquee";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
     return (
-      <Container>
+      <Container >
         <div className='text-center'>
           <img src={logo} alt='' />
           <p className='text-secondary'>Journalism Without Fear or Favour</p>
